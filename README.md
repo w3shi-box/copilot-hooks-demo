@@ -1,3 +1,4 @@
+```
 copilot-hooks-demo/
 ├── .github/
 │   └── hooks/
@@ -6,3 +7,4 @@ copilot-hooks-demo/
 │   └── init.bat
 ├── logs/
 ├── README.md
+```
