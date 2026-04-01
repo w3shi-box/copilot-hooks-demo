@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "userPromptSubmitted": [
+      {
+        "type": "command",
+        "powershell": "if (!(Test-Path logs)) { New-Item -ItemType Directory -Path logs }; Add-Content logs/test.log \"HOOK TRIGGERED\"",
+        "cwd": ".",
+        "timeoutSec": 5
+      }
+    ]
+  }
+}
